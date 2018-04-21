@@ -1,45 +1,30 @@
-ÊµÑéÆ÷²Ä:
-	Ì½Ë÷ÕßSTM32F4¿ª·¢°å
+å®žéªŒå™¨æ:
+	æŽ¢ç´¢è€…STM32F4å¼€å‘æ¿
 	
-ÊµÑéÄ¿µÄ:
-	Ñ§Ï°MPU6050 ÁùÖá´«¸ÐÆ÷(ÈýÖá¼ÓËÙ¶È+ÈýÖáÍÓÂÝÒÇ)µÄÊ¹ÓÃ.
+å®žéªŒç›®çš„:
+	å­¦ä¹ MPU6050 å…­è½´ä¼ æ„Ÿå™¨(ä¸‰è½´åŠ é€Ÿåº¦+ä¸‰è½´é™€èžºä»ª)çš„ä½¿ç”¨.
 	
-Ó²¼þ×ÊÔ´:
-	1,DS0(Á¬½ÓÔÚPF9)
-	2,´®¿Ú1(²¨ÌØÂÊ:115200,PA9/PA10Á¬½ÓÔÚ°åÔØUSB×ª´®¿ÚÐ¾Æ¬CH340ÉÏÃæ)
-	3,ALIENTEK 2.8/3.5/4.3/7´çTFTLCDÄ£¿é(Í¨¹ýFSMCÇý¶¯,FSMC_NE4½ÓLCDÆ¬Ñ¡/A6½ÓRS)
-	4,KEY0°´¼ü(Á¬½ÓÔÚPE4)
-	5,MPU6050´«¸ÐÆ÷(Á¬½ÓÔÚPB8(SCL),PB9(SDA)ÉÏÃæ,INT(PC0)Î´ÓÃµ½).
+ç¡¬ä»¶èµ„æº:
+	1,DS0(è¿žæŽ¥åœ¨PF9)
+	2,ä¸²å£1(æ³¢ç‰¹çŽ‡:115200,PA9/PA10è¿žæŽ¥åœ¨æ¿è½½USBè½¬ä¸²å£èŠ¯ç‰‡CH340ä¸Šé¢)
+	3,ALIENTEK 2.8/3.5/4.3/7å¯¸TFTLCDæ¨¡å—(é€šè¿‡FSMCé©±åŠ¨,FSMC_NE4æŽ¥LCDç‰‡é€‰/A6æŽ¥RS)
+	4,KEY0æŒ‰é”®(è¿žæŽ¥åœ¨PE4)
+	5,MPU6050ä¼ æ„Ÿå™¨(è¿žæŽ¥åœ¨PB8(SCL),PB9(SDA)ä¸Šé¢,INT(PC0)æœªç”¨åˆ°).
 
-ÊµÑéÏÖÏó:
-	±¾ÊµÑé¿ª»úºó£¬ÏÈ³õÊ¼»¯MPU6050£¬È»ºóÀûÓÃDMP¿â£¬³õÊ¼»¯MPU6050¼°Ê¹ÄÜDMP£¬×îºó£¬ÔÚËÀÑ­»·ÀïÃæ²»Í£
-	¶ÁÈ¡£ºÎÂ¶È´«¸ÐÆ÷¡¢¼ÓËÙ¶È´«¸ÐÆ÷¡¢ÍÓÂÝÒÇ¡¢DMP×ËÌ¬½âËãºóµÄÅ·À­½ÇµÈÊý¾Ý£¬Í¨¹ý´®¿ÚÉÏ±¨¸øÉÏÎ»»ú£¨ÎÂ
-	¶È²»ÉÏ±¨£©£¬ÀûÓÃÉÏÎ»»úÈí¼þ£¨ANO_TechÄäÃûËÄÖáÉÏÎ»»ú_V2.6.exe£©£¬¿ÉÒÔÊµÊ±ÏÔÊ¾MPU6050µÄ´«¸ÐÆ÷×´
-	Ì¬ÇúÏß£¬²¢ÏÔÊ¾3D×ËÌ¬£¬¿ÉÒÔÍ¨¹ýKEY0°´¼ü¿ªÆô/¹Ø±ÕÊý¾ÝÉÏ´«¹¦ÄÜ¡£Í¬Ê±£¬ÔÚLCDÄ£¿éÉÏÃæÏÔÊ¾ÎÂ¶ÈºÍÅ·À­
-	½ÇµÈÐÅÏ¢¡£DS0À´Ö¸Ê¾³ÌÐòÕýÔÚÔËÐÐ¡£ÁíÍâ,±¾Àý³ÌÒ²¿ÉÒÔÍ¨¹ýUSMARTµ÷ÓÃMPU_Read_Byte/MPU_Write_Byte
-	µÈº¯Êý,À´ÊµÏÖ¶ÔMPU6050¼Ä´æÆ÷µÄ¶ÁÐ´²Ù×÷(½öÔÚUPLOAD OFF×´Ì¬ÏÂ).
+å®žéªŒçŽ°è±¡:
+	æœ¬å®žéªŒå¼€æœºåŽï¼Œå…ˆåˆå§‹åŒ–MPU6050ï¼Œç„¶åŽåˆ©ç”¨DMPåº“ï¼Œåˆå§‹åŒ–MPU6050åŠä½¿èƒ½DMPï¼Œæœ€åŽï¼Œåœ¨æ­»å¾ªçŽ¯é‡Œé¢ä¸åœ
+	è¯»å–ï¼šæ¸©åº¦ä¼ æ„Ÿå™¨ã€åŠ é€Ÿåº¦ä¼ æ„Ÿå™¨ã€é™€èžºä»ªã€DMPå§¿æ€è§£ç®—åŽçš„æ¬§æ‹‰è§’ç­‰æ•°æ®ï¼Œé€šè¿‡ä¸²å£ä¸ŠæŠ¥ç»™ä¸Šä½æœºï¼ˆæ¸©
+	åº¦ä¸ä¸ŠæŠ¥ï¼‰ï¼Œåˆ©ç”¨ä¸Šä½æœºè½¯ä»¶ï¼ˆANO_TechåŒ¿åå››è½´ä¸Šä½æœº_V2.6.exeï¼‰ï¼Œå¯ä»¥å®žæ—¶æ˜¾ç¤ºMPU6050çš„ä¼ æ„Ÿå™¨çŠ¶
+	æ€æ›²çº¿ï¼Œå¹¶æ˜¾ç¤º3Då§¿æ€ï¼Œå¯ä»¥é€šè¿‡KEY0æŒ‰é”®å¼€å¯/å…³é—­æ•°æ®ä¸Šä¼ åŠŸèƒ½ã€‚åŒæ—¶ï¼Œåœ¨LCDæ¨¡å—ä¸Šé¢æ˜¾ç¤ºæ¸©åº¦å’Œæ¬§æ‹‰
+	è§’ç­‰ä¿¡æ¯ã€‚DS0æ¥æŒ‡ç¤ºç¨‹åºæ­£åœ¨è¿è¡Œã€‚å¦å¤–,æœ¬ä¾‹ç¨‹ä¹Ÿå¯ä»¥é€šè¿‡USMARTè°ƒç”¨MPU_Read_Byte/MPU_Write_Byte
+	ç­‰å‡½æ•°,æ¥å®žçŽ°å¯¹MPU6050å¯„å­˜å™¨çš„è¯»å†™æ“ä½œ(ä»…åœ¨UPLOAD OFFçŠ¶æ€ä¸‹).
 	
-×¢ÒâÊÂÏî: 
-	1,4.3´çºÍ7´çÆÁÐèÒª±È½Ï´óµçÁ÷,USB¹©µç¿ÉÄÜ²»×ã,ÇëÓÃÍâ²¿µçÔ´ÊÊÅäÆ÷(ÍÆ¼öÍâ½Ó12V 1AµçÔ´).
-	2,±¾Àý³ÌÔÚLCD_Initº¯ÊýÀïÃæ(ÔÚILI93xx.c),ÓÃµ½ÁËprintf,Èç¹û²»³õÊ¼»¯´®¿Ú1,½«µ¼ÖÂÒº¾§ÎÞ·¨ÏÔÊ¾!!  
-	3,ANO_TechÄäÃûËÄÖáÉÏÎ»»ú_V2.6.exeÈí¼þËùÔÚÂ·¾¶£º¿ª·¢°å¹âÅÌ-->6£¬Èí¼þ×ÊÁÏ-->Èí¼þ-->ÄäÃûËÄÖáÉÏÎ»»ú
-	4,ANO_TechÄäÃûËÄÖáÉÏÎ»»úÊ¹ÓÃ·½·¨£¬Çë¿´Èí¼þÎÄ¼þ¼ÐÏÂµÄREADME.txt¡£
-	5,×¢Òâ:´®¿Ú²¨ÌØÂÊÎª500Kbps£¡£¡
-
-	PS:ANO_TechÄäÃûËÄÖáÉÏÎ»»ú ¹¦ÄÜÊ®·ÖÇ¿´ó£¬Ñ§Ï°Ê¹ÓÃÐèÒª»¨·ÑÒ»µãÊ±¼ä£¨°ëÌì×óÓÒ£©£¬Çë´ó¼ÒÄÍÐÄ¿´ÄäÃûÌá¹©
-	µÄÊÓÆµ/ÎÄµµ½Ì³ÌÑ§Ï°£¬²»Òª¸¡Ôê¡£
-	
- 
-					ÕýµãÔ­×Ó@ALIENTEK
-					2014-10-25
-					¹ãÖÝÊÐÐÇÒíµç×Ó¿Æ¼¼ÓÐÏÞ¹«Ë¾
-					µç»°£º020-38271790
-					´«Õæ£º020-36773971
-					¹ºÂò£ºhttp://shop62103354.taobao.com
-					http://shop62057469.taobao.com
-					¹«Ë¾ÍøÕ¾£ºwww.alientek.com
-					¼¼ÊõÂÛÌ³£ºwww.openedv.com
-					
+æ³¨æ„äº‹é¡¹: 
+	1,4.3å¯¸å’Œ7å¯¸å±éœ€è¦æ¯”è¾ƒå¤§ç”µæµ,USBä¾›ç”µå¯èƒ½ä¸è¶³,è¯·ç”¨å¤–éƒ¨ç”µæºé€‚é…å™¨(æŽ¨èå¤–æŽ¥12V 1Aç”µæº).
+	2,æœ¬ä¾‹ç¨‹åœ¨LCD_Initå‡½æ•°é‡Œé¢(åœ¨ILI93xx.c),ç”¨åˆ°äº†printf,å¦‚æžœä¸åˆå§‹åŒ–ä¸²å£1,å°†å¯¼è‡´æ¶²æ™¶æ— æ³•æ˜¾ç¤º!!  
+	3,ANO_TechåŒ¿åå››è½´ä¸Šä½æœº_V2.6.exeè½¯ä»¶æ‰€åœ¨è·¯å¾„ï¼šå¼€å‘æ¿å…‰ç›˜-->6ï¼Œè½¯ä»¶èµ„æ–™-->è½¯ä»¶-->åŒ¿åå››è½´ä¸Šä½æœº
+	4,ANO_TechåŒ¿åå››è½´ä¸Šä½æœºä½¿ç”¨æ–¹æ³•ï¼Œè¯·çœ‹è½¯ä»¶æ–‡ä»¶å¤¹ä¸‹çš„README.txtã€‚
+	5,æ³¨æ„:ä¸²å£æ³¢ç‰¹çŽ‡ä¸º500Kbpsï¼ï¼
 					
 					
 					
